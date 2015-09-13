@@ -1,0 +1,9 @@
+.box {
+float: left;
+width: 60px;
+height: 400px;
+}
+
+.boxContainer {
+overflow: hidden;
+}
