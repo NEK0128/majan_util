@@ -34,6 +34,8 @@ foreach($post as $key=>$value){
       $name = "a5p";
   } elseif ($value == 38) {
       $name = "ura";
+  } elseif ($value ==39) {
+      $name = "back";
   }
 
   $digit = ImageCreateFromPng("../img/" . $name . ".png");
